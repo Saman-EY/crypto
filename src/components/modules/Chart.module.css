@@ -1,0 +1,105 @@
+.ModalParent {
+    position: fixed;
+    inset: 0;
+    backdrop-filter: blur(3px);
+    display: flex;
+    justify-content: center;
+}
+
+.ModalParent > .Chart {
+    margin-top: 15rem;    
+    border-radius: 8px;
+    border: 3px solid #2f2e2e;
+    width: 800px;
+    height: fit-content;
+    background-color: #0000009c;
+    /* backdrop-filter: blur(1px); */
+    padding: 20px;
+}
+
+.Graph {
+    width: 76   0px;
+    height: 300px;
+}
+
+.ChartHeader {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-left: 15px;
+    margin-bottom: 1rem;
+}
+
+.ChartHeader > img {
+    width: 40px;
+    height: 40px;
+}
+
+.ChartHeader > p {
+    font-size: large;
+    font-weight: 800;
+}
+
+.CloseBtn {
+    padding:5px 12px;
+    background-color: var(--red);
+    border-radius: 6px;
+    font-size: large;
+    font-weight: 900;
+    cursor: pointer;
+    transition: all ease-out .3s;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+
+}
+
+.CloseBtn:hover {
+    background-color: rgb(154, 2, 2);
+}
+
+.Chart {
+    width: 600px;
+    height: 600px;
+}
+
+.ChartTypes {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: .8rem;
+    margin-left: 1.1rem;
+}
+
+.ChartTypes > button {
+    border-radius: 5px;
+    padding: 6px 12px;
+    border: 2px solid var(--blue2);
+    color: white;
+    transition: all ease-out .3s;
+    background-color: inherit;
+}
+
+.ChartTypes > button.active {
+    background-color: var(--blue2);
+}
+
+.Details {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+.Details > div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 700;
+}
+
+.Details > div > p {
+    color: var(--blue2);
+    font-size: 1.2rem;
+}

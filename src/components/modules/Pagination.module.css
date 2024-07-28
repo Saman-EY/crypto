@@ -1,0 +1,50 @@
+.txtred {
+  color: var(--red);
+}
+
+.PaginationContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  gap: 5px;
+  /* width: 400px; */
+}
+
+.PaginationContainer > div {
+  display: flex;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.PaginationContainer > div > span {
+  text-align: center;
+  color: white;
+  border: 1px solid var(--blue2);
+  border-radius: 5px;
+  flex: 1;
+}
+
+.PaginationContainer > button {
+  border-radius: 5px;
+  width: 60px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--blue2);
+  color: white;
+}
+
+
+
+.Selected {
+  background-color: var(--blue2);
+}
+
+.Disabled {
+  opacity: .5;
+}

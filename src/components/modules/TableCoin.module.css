@@ -1,0 +1,37 @@
+.txtgreen {
+  color: var(--green);
+}
+
+.txtred {
+  color: var(--red);
+}
+
+.CoinImg {
+  max-width: 35px;
+  border-radius: 50%;
+}
+
+.coinImgCointainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.coinImgCointainer > span {
+  color: #b1b1b1;
+  font-weight: 500;
+}
+
+.bodyTr {
+  height: 5rem;
+  border-bottom: 2px solid #303030;
+}
+
+.bodyTr:last-child {
+  border-bottom: none;
+}
+
+.bodyTr td {
+  padding: 0 2rem 0 0;
+}
