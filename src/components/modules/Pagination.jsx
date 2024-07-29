@@ -2,8 +2,9 @@ import React, { useState } from 'react';
 import styles from './Pagination.module.css';
 
 function Pagination({ page, setPage, functions }) {
-  let prevhandler = functions[0];
-  let nexthandler = functions[1];
+
+  let [prevhandler, nexthandler] = functions;
+
 
   return (
     <section className={styles.PaginationContainer}>
